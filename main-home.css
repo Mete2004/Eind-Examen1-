@@ -121,16 +121,18 @@ img {
 
 .pictures-courses-section{
     border: 5px solid green;
+    display: grid;
+    place-items: center;
 }
 
 .pictures-courses-wrapper{
     border: 2px solid blue;
-    height: 420px;
+    width: 80%;
 }
 
 .pictures-courses-outer-div{
     border: 1px solid red;
-    height: 99%;
+    height: 380px;
     width: 49.5%;
     float: left;
     display: grid;
@@ -139,6 +141,28 @@ img {
 
 .pictures-courses-inner-div{
     border: 1px solid white;
+    height: 90%;
+    width: 90%;
+}
+
+.picture-team-section{
+    border: 5px solid green;
+}
+
+.picture-team-wrapper{
+    border: 2px solid blue;
+    height: 350px;
+    display: grid;
+    place-items: center;
+}
+
+.picture-team-outer-div{
+    border: 1px solid red;
     height: 95%;
-    width: 95%;
+    width: 40%;
+}
+
+footer{
+    border: 2px solid rgb(255, 89, 0);
+    height: 70px;
 }
