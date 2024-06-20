@@ -101,3 +101,44 @@ img {
     height: 60px;
     background-color: black;
 }
+
+.text-about-section{
+    border: 5px solid green;
+}
+
+.text-about-wrapper{
+    border: 2px solid blue;
+    height: 180px;
+    display: grid;
+    place-items: center;
+}
+
+.text-about-outer-div{
+    border: 1px solid red;
+    height: 80%;
+    width: 70%;
+}
+
+.pictures-courses-section{
+    border: 5px solid green;
+}
+
+.pictures-courses-wrapper{
+    border: 2px solid blue;
+    height: 420px;
+}
+
+.pictures-courses-outer-div{
+    border: 1px solid red;
+    height: 99%;
+    width: 49.5%;
+    float: left;
+    display: grid;
+    place-items: center;
+}
+
+.pictures-courses-inner-div{
+    border: 1px solid white;
+    height: 95%;
+    width: 95%;
+}
