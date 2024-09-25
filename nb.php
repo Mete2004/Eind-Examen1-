@@ -77,6 +77,43 @@
         </div>
     </section>
 
+
+    <section class="blog-form-section">
+        <div class="blog-form-wrapper">
+            <div class="blog-form-header-div">
+            
+            </div>
+            <!-- <div class="blog-form-name-outer-div">
+
+            </div> -->
+            <div class="blog-form-text-outer-div">
+                <!-- <div class="blog-form-text-inner-div">
+                   
+                </div> -->
+                <form  action="admin.php" method="post" >
+                <label for="fname">Titel:</label><br>
+                <input class="blog-form-name" type="text" id="fname" name="title" value=""><br>
+                <label for="lname">Bericht:</label><br>
+
+                <label for="w3review"></label>
+
+                <textarea id="blog-message" name="message" rows="4" cols="50" placeholder="">
+                
+                </textarea>
+               
+            </div>
+            <div class="blog-form-button-outer-div">
+                <div class="blog-form-button-inner-div">
+                <input class="blog-form-button" type="submit" value="Submit">
+                
+        
+                </div>
+            </div>
+
+            </form> 
+
+        </div>
+    </section>
     
 </body>
 </html>
