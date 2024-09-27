@@ -1,0 +1,85 @@
+.pop-up-section{
+    background: #34454d;
+    height: 38px;
+}
+
+/* Stijlen voor de knop */
+button {
+    background-color: #d35400; /* Groen */
+    color: white; /* Witte tekst */
+    padding: 10px 20px; /* Ruimte rondom de tekst */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Ronde hoeken */
+    cursor: pointer; /* Cursor verandert naar handje */
+    font-size: 16px; /* Grotere tekst */
+}
+
+button:hover {
+    background-color: #d35400; /* Donkerder groen bij hover */
+}
+
+/* Modal stijlen */
+.modal {
+    display: none; /* Verborgen standaard */
+    position: fixed; /* Blijft op dezelfde plek */
+    z-index: 1; /* Voorgrond */
+    left: 0;
+    top: 0;
+    width: 100%; /* Volledige breedte */
+    height: 100%; /* Volledige hoogte */
+    overflow: auto; /* Scrollen als nodig */
+    background-color: rgb(0,0,0); /* Zwarte achtergrond */
+    background-color: rgba(0,0,0,0.4); /* Transparante zwarte achtergrond */
+}
+
+
+
+.modal-content {
+    background-color: #ffffff; /* Schone, heldere achtergrond */
+    margin: 10% auto; /* Bovenruimte en centreren */
+    padding: 40px; /* Vergrote ruimte rondom tekst */
+    border: none; /* Geen rand voor een moderne uitstraling */
+    width: 95%; /* Breder voor meer inhoud */
+    max-width: 800px; /* Verhoogde maximale breedte voor grotere schermen */
+    border-radius: 10px; /* Zachtere, afgeronde hoeken */
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15); /* Subtiele schaduw voor diepte */
+    transition: transform 0.3s ease; /* Animatie effect voor in- en uitzoomen */
+}
+
+/* Vergroting bij hover effect */
+.modal-content:hover {
+    transform: scale(1.02); /* Lichte vergroting bij hover voor interactie feedback */
+}
+
+/* Titels en tekst in de modal */
+.modal-content h1 {
+    font-family: 'Arial', sans-serif; /* Standaard lettertype */
+    font-size: 24px; /* Grotere tekst voor titels */
+    color: #333; /* Donkere kleur voor betere leesbaarheid */
+    margin-bottom: 15px; /* Ruimte onder de titel */
+}
+
+.modal-content p {
+    font-family: 'Arial', sans-serif; /* Standaard lettertype */
+    font-size: 16px; /* Normale tekstgrootte */
+    color: #555; /* Iets lichtere kleur voor tekst */
+    line-height: 1.5; /* Betere leesbaarheid door meer ruimte tussen regels */
+}
+
+
+
+
+/* Sluitknop */
+.close {
+    color: #aaa; /* Grijze kleur */
+    float: right; /* Rechts uitlijnen */
+    font-size: 28px; /* Grootte */
+    font-weight: bold; /* Vetgedrukt */
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Zwart bij hover/focus */
+    text-decoration: none; /* Geen onderstreping */
+    cursor: pointer; /* Cursor verandert naar handje */
+}
