@@ -73,3 +73,64 @@ textarea {
 .contact-form-button:hover {
     background-color: #2a373d;
 }
+
+.bericht-form-section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f0f4f8;
+}
+
+.bericht-form-wrapper {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.bericht-form-outer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bericht-form-inner-div {
+    background-color: #34454d;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.bericht-form-inner-div h1 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.bericht-form-inner-div p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-top: 0;
+}
+
+.bericht-form-inner-div a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.bericht-form-inner-div a:hover {
+    background-color: #45a049;
+}
