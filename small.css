@@ -8,20 +8,15 @@
     
     header{
         height: 320px;
-        border: 3px solid green;
-        /* display: grid;
-        place-items: center; */
     }
     
     .logo-outer-div{
-        border: 2px solid red;
         height: 73px;
         width: 99%;
         float: left;
     }
     
     .logo-inner-div{
-        border: 2px solid white;
         height: 70px;
         width: 100px;
         display: grid;
@@ -29,14 +24,12 @@
     }
     
     .buttons-outer-div{
-        border: 2px solid red;
         height: 225px;
         width: 99%;
         float: left;
     }
     
     .buttons-inner-div{
-        border: 2px solid white;
         height: 70px;
         width: 99%;
         float: left; 
@@ -45,7 +38,6 @@
     }
     
     .button{
-        border: 2px solid orchid;
         height: 45%;
         width: 30%;
         display: grid;
@@ -59,7 +51,6 @@
     }
     
     .h-button{
-        border: 2px solid orchid;
         height: 45%;
         width: 30%;
         background: grey;
@@ -108,19 +99,14 @@
     
     /* //HOME */
     
-    .text-about-section{
-        border: 5px solid green;
-    }
     
     .text-about-wrapper{
-        border: 2px solid blue;
         height: 320px;
         display: grid;
         place-items: center;
     }
     
     .text-about-outer-div{
-        border: 1px solid red;
         height: 95%;
         width: 95%;
         display: grid;
@@ -128,7 +114,6 @@
     }
     
     .text-about-inner-div{
-        border: 1px solid white;
         height: 90%;
         width: 95%;
         display: grid;
@@ -154,18 +139,15 @@
     }
     
     .pictures-courses-section{
-        border: 5px solid green;
         display: grid;
         place-items: center;
     }
     
     .pictures-courses-wrapper{
-        border: 2px solid blue;
         width: 95%;
     }
     
     .pictures-courses-outer-div{
-        border: 1px solid red;
         height: 380px;
         width: 99%;
         float: left;
@@ -174,49 +156,37 @@
     }
     
     .pictures-courses-inner-div{
-        border: 1px solid white;
         height: 95%;
         width: 95%;
     }
     
-    .picture-team-section{
-        border: 5px solid green;
-    }
     
     .picture-team-wrapper{
-        border: 2px solid blue;
         height: 350px;
         display: grid;
         place-items: center;
     }
     
     .picture-team-outer-div{
-        border: 1px solid red;
         height: 95%;
         width: 85%;
     }
     
     footer{
-        border: 2px solid rgb(255, 89, 0);
         height: 70px;
     }
     
     
     /* //contact */
     
-    .contact-form-titel-section{
-        border: 5px solid green;
-    }
     
     .contact-form-titel-wrapper{
-        border: 2px solid blue;
         height: 100px;
         display: grid;
         place-items: center;
     }
     
     .contact-form-titel-outer-div{
-        border: 1px solid red;
         height: 80%;
         width: 80%;
         display: grid;
@@ -224,7 +194,6 @@
     }
     
     .contact-form-titel-inner-div{
-        border: 1px solid white;
         height: 100%;
         width: 60%;
         display: grid;
@@ -237,27 +206,23 @@
     }
     
     .contact-form-section{
-        border: 5px solid green;
         height: 650px;
         display: grid;
         place-items: center;
     }
     
     .contact-form-wrapper{
-        border: 2px solid blue;
         height: 550px;
         width: 95%;
     }
     
     .contact-form-header-div{
-        border: 1px solid yellow;
         height: 50px;
         width: 99%;
         background: black;
     }
     
     .contact-form-name-outer-div{
-        border: 1px solid red;
         height: 80px;
         width: 99%;
         display: grid;
@@ -265,14 +230,12 @@
     }
     
     .contact-form-name-inner-div{
-        border: 1px solid white;
         height: 50px;
         width: 80%;
         background: white;
     }
     
     .contact-form-mail-outer-div{
-        border: 1px solid red;
         height: 80px;
         width: 99%;
         display: grid;
@@ -280,14 +243,12 @@
     }
     
     .contact-form-mail-inner-div{
-        border: 1px solid white;
         height: 50px;
         width: 80%;
         background: white;
     }
     
     .contact-form-text-outer-div{
-        border: 1px solid red;
         height: 240px;
         width: 99%;
         display: grid;
@@ -295,14 +256,12 @@
     }
     
     .contact-form-text-inner-div{
-        border: 1px solid white;
         height: 205px;
         width: 80%;
         background: white;
     }
     
     .contact-form-button-outer-div{
-        border: 1px solid red;
         height: 90px;
         width: 99%;
         display: grid;
@@ -310,13 +269,11 @@
     }
     
     .contact-form-button-inner-div{
-        border: 1px solid white;
         height: 50px;
         width: 80%;
     }
     
     .contact-form-button{
-        border: 1px solid purple;
         height: 48px;
         width: 50%;
         display: grid;
@@ -346,19 +303,13 @@
     /* BLOG */
     
     
-    .blog-titel-section{
-        border: 5px solid green;
-    }
-    
     .blog-titel-wrapper{
-        border: 2px solid blue;
         height: 100px;
         display: grid;
         place-items: center;
     }
     
     .blog-titel-outer-div{
-        border: 1px solid red;
         height: 80%;
         width: 70%;
         display: grid;
@@ -366,7 +317,6 @@
     }
     
     .blog-titel-inner-div{
-        border: 1px solid white;
         height: 100%;
         width: 50%;
         display: grid;
@@ -378,12 +328,7 @@
         font-size: 25px;
     }
     
-    .blog-message-section{
-        border: 5px solid green;
-    }
-    
     .blog-message-wrapper{
-        border: 2px solid blue;
         height: 400px;
         display: grid;
         place-items: center;
@@ -391,7 +336,6 @@
     }
     
     .blog-message-outer-div{
-        border: 1px solid red;
         height: 90%;
         width: 90%;
         display: grid;
@@ -401,7 +345,6 @@
     }
     
     .blog-message-inner-div{
-        border: 1px solid white;
         height: 91%;
         width: 95%;
         background: white;
@@ -412,19 +355,13 @@
     /* NB */
     
     
-    .blog-form-titel-section{
-        border: 5px solid green;
-    }
-    
     .blog-form-titel-wrapper{
-        border: 2px solid blue;
         height: 100px;
         display: grid;
         place-items: center;
     }
     
     .blog-form-titel-outer-div{
-        border: 1px solid red;
         height: 80%;
         width: 90%;
         display: grid;
@@ -432,7 +369,6 @@
     }
     
     .blog-form-titel-inner-div{
-        border: 1px solid white;
         height: 100%;
         width: 90%;
         display: grid;
@@ -445,27 +381,23 @@
     }
     
     .blog-form-section{
-        border: 5px solid green;
         height: 650px;
         display: grid;
         place-items: center;
     }
     
     .blog-form-wrapper{
-        border: 2px solid blue;
         height: 470px;
         width: 90%;
     }
     
     .blog-form-header-div{
-        border: 1px solid yellow;
         height: 50px;
         width: 99%;
         background: black;
     }
     
     .blog-form-name-outer-div{
-        border: 1px solid red;
         height: 80px;
         width: 99%;
         display: grid;
@@ -473,14 +405,12 @@
     }
     
     .blog-form-name-inner-div{
-        border: 1px solid white;
         height: 50px;
         width: 80%;
         background: white;
     }
     
     .blog-form-text-outer-div{
-        border: 1px solid red;
         height: 240px;
         width: 99%;
         display: grid;
@@ -488,14 +418,12 @@
     }
     
     .blog-form-text-inner-div{
-        border: 1px solid white;
         height: 205px;
         width: 80%;
         background: white;
     }
     
     .blog-form-button-outer-div{
-        border: 1px solid red;
         height: 90px;
         width: 99%;
         display: grid;
@@ -503,13 +431,11 @@
     }
     
     .blog-form-button-inner-div{
-        border: 1px solid white;
         height: 50px;
         width: 80%;
     }
     
     .blog-form-button{
-        border: 1px solid purple;
         height: 48px;
         width: 45%;
         display: grid;
