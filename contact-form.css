@@ -1,0 +1,75 @@
+.contact-form-section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #34454d;
+}
+
+.contact-form-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form-name-outer-div,
+.contact-form-mail-outer-div,
+.contact-form-text-outer-div {
+    margin-bottom: 20px;
+}
+
+.contact-form-name-inner-div,
+.contact-form-mail-inner-div,
+.contact-form-text-inner-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34454d;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-form-button-outer-div {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-button-inner-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-button {
+    background-color: #34454d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-button:hover {
+    background-color: #2a373d;
+}
