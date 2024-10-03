@@ -144,7 +144,7 @@
                 </div>
                 <div class="contact-socials-inner-div">
                     <div class="contact-socials">
-                        <a href="mailto:example@example.com">
+                        <a href="mailto:mete.sariguney@student.rocva.nl">
                             <img class="icon" src="img/mail-icon-new-removebg-preview.png">       
                         </a>           
                     </div>
